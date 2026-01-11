@@ -21,7 +21,7 @@ export const WeatherApp = () => {
             console.error('Ocurrio un error gravisimo: ',error)
         }
     }
-
+ 
     const handleSubmit = (event) => {
         event.preventDefault();
         fetchWeatherData()
