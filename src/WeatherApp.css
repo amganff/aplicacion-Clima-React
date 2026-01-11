@@ -1,0 +1,65 @@
+.container{
+    max-width: 70%;
+    margin: 0 auto; /* el primer valor es vertical y el 2do el ancho que esta automatico */
+    padding:20px ;
+    /* background-color: rgb(173, 228, 230); */
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    margin-bottom: 20px ;
+}
+
+input[type='text']{
+    flex:1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    padding: 10px 20 px;
+    background-color: rgb(40, 72, 131);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 1s all ease;
+}
+
+button:hover {
+    background-color: rgb(52, 115, 233) ;
+}
+h2{
+    font-size: 30px;
+}
+
+p{
+    margin-bottom: 5px;
+    color: rgb(241, 151, 16);
+    font-weight: bold;
+
+}
+h1,h2{
+    color: white;
+}
+img{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+@media (max-width:900px){
+    .container{
+        max-width: 80%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
